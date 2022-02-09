@@ -8,15 +8,11 @@
   </head>
   <body>
 	<script>
-        // LOOP OVER AN ARRAY - FOR LOOP METHOD
-        function loopMethodOne (myArr){ // initializes loopMethodOne function with myArr parameter that takes double or int arrays
-            for (var i = 0; i < myArr.length; i++){ // creates a for loop that iterates the length of myArr by incrementing the new variable i to reach each index of myArr starting at i = 0
-                myArr[i]--; // subtracts one from the value of each indice of myArr at myArr[i]
-            }
-            return myArr; // returns the updated value of myArr
-        }
+        // LOOP OVER AN ARRAY - forEach METHOD
 
-      
+        const genres = ["pop", "rock", "country"]; // Initializes const genres with three string values
+        genres.forEach((n) => {console.log(n)}); // The forEach method is an Array.prototype method, and all arrays will inherit the method 
+        // Will complete function n, defined inside of forEach, which outputs each value in the genres array
     </script>
   </body>
 </html>
