@@ -8,17 +8,13 @@
   </head>
   <body>
 	<script>
-      // do not modify these array definitions.
-        let condiments = ["mustard","ketchup","relish","sauerkraut"];
-        const utensils = ["knife","spoon","fork"];
-      // write your practice code below this line 
-
-
-
-      // do not modify this array definition.
-        const chores = ["Write JS Code"];
-      // write your chores code below this line:
-
+        // LOOP OVER AN ARRAY - FOR LOOP METHOD
+        function loopMethodOne (myArr){ // initializes loopMethodOne function with myArr parameter that takes double or int arrays
+            for (var i = 0; i < myArr.length; i++){ // creates a for loop that iterates the length of myArr by incrementing the new variable i to reach each index of myArr starting at i = 0
+                myArr[i]--; // subtracts one from the value of each indice of myArr at myArr[i]
+            }
+            return myArr; // returns the updated value of myArr
+        }
 
       
     </script>
